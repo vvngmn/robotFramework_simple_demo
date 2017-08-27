@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generated="20170827 12:37:07.585" generator="Robot 3.0.3.dev20170213 (Python 2.7.11 on linux2)">
+<suite source="/home/xiaocwan/test_robotframework/test.txt" id="s1" name="Test">
+<test id="s1-t1" name="case1 - scenario xxx and xxx">
+<kw name="Test Login" library="Test">
+<arguments>
+<arg>username=${my_name}</arg>
+</arguments>
+<assign>
+<var>${result_login}</var>
+</assign>
+<msg timestamp="20170827 12:37:07.604" level="INFO">Login: xiaocwan</msg>
+<msg timestamp="20170827 12:37:07.605" level="INFO">${result_login} = Login successful</msg>
+<status status="PASS" endtime="20170827 12:37:07.605" starttime="20170827 12:37:07.604"></status>
+</kw>
+<kw name="Test Logout" library="Test">
+<arguments>
+<arg>username=${my_name}</arg>
+</arguments>
+<assign>
+<var>${result_logout}</var>
+</assign>
+<msg timestamp="20170827 12:37:07.605" level="INFO">Logout: xiaocwan</msg>
+<msg timestamp="20170827 12:37:07.605" level="INFO">${result_logout} = Logout successful</msg>
+<status status="PASS" endtime="20170827 12:37:07.605" starttime="20170827 12:37:07.605"></status>
+</kw>
+<status status="PASS" endtime="20170827 12:37:07.605" critical="yes" starttime="20170827 12:37:07.604"></status>
+</test>
+<doc>This suite cover all testxxx related cases</doc>
+<status status="PASS" endtime="20170827 12:37:07.606" starttime="20170827 12:37:07.586"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="0" pass="1">Critical Tests</stat>
+<stat fail="0" pass="1">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="0" id="s1" name="Test" pass="1">Test</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

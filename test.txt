@@ -1,0 +1,12 @@
+*** Settings ***
+Documentation     This suite cover all testxxx related cases
+Library		Test.py		${login_url}
+
+
+*** Test Cases ***
+case1 - scenario xxx and xxx
+    ${result_login}	Test Login	username=${my_name}
+    ${result_logout}	Test Logout	username=${my_name}
+
+
+
