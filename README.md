@@ -10,9 +10,10 @@ Test :: This suite cover all testxxx related cases                    | PASS |
 1 critical test, 1 passed, 0 failed
 1 test total, 1 passed, 0 failed
 ==============================================================================
-Output:  /home/xiaocwan/test_robotframework/output.xml
-Log:     /home/xiaocwan/test_robotframework/log.html
-Report:  /home/xiaocwan/test_robotframework/report.html
+Output:  /home/xiaocwan/robotFramework_simple_demo/output.xml
+Log:     /home/xiaocwan/robotFramework_simple_demo/log.html
+Report:  /home/xiaocwan/robotFramework_simple_demo/report.html
+
 ```
 
 
